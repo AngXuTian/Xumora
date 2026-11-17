@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/Xumora.Contracts/Xumora.Contracts.csproj" />
+    <Project Path="src/BuildingBlocks/Xumora.Infrastructure.Shared/Xumora.Infrastructure.Shared.csproj" />
+    <Project Path="src/BuildingBlocks/Xumora.SharedKernel/Xumora.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Hosts/">
+    <Project Path="src/Hosts/Xumora.API/Xumora.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/Xumora.Identity.Application/Xumora.Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/Xumora.Identity.Domain/Xumora.Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/Xumora.Identity.Infrastructure/Xumora.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Xumora.API.Tests/Xumora.API.Tests.csproj" />
+  </Folder>
+</Solution>

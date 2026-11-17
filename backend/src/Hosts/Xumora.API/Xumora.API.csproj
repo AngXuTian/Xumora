@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>da9e3816-d3cf-4e1e-9b0f-0082386a117b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc" Version="10.2.1" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="10.2.1" />
+    <PackageReference Include="Asp.Versioning.OpenApi" Version="10.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.15">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.15" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.21.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.21.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.21.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.21.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\Xumora.Contracts\Xumora.Contracts.csproj" />
+    <ProjectReference Include="..\..\BuildingBlocks\Xumora.Infrastructure.Shared\Xumora.Infrastructure.Shared.csproj" />
+    <ProjectReference Include="..\..\Modules\Photography\Xumora.Photography.Application\Xumora.Photography.Application.csproj" />
+    <ProjectReference Include="..\..\Modules\Photography\Xumora.Photography.Infrastructure\Xumora.Photography.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Identity\Xumora.Identity.Application\Xumora.Identity.Application.csproj" />
+    <ProjectReference Include="..\..\Modules\Identity\Xumora.Identity.Infrastructure\Xumora.Identity.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
